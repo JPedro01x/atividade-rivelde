@@ -1,0 +1,118 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho (usado em ambas as páginas) */
+.header,
+.topo {
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 8px;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.header img,
+.topo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.header h1,
+.topo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header p,
+.topo p {
+    font-size: 1rem;
+    color: #d1d5db;
+}
+
+.contato p,
+.contato a,
+.info a {
+    font-size: 0.95rem;
+    color: #d1d5db;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Seções */
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+section h2 {
+    background-color: #e5e7eb;
+    padding: 10px 15px;
+    border-left: 5px solid #111827;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #1f2937;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Info de perfil (experiencia.html) */
+.info p {
+    margin-bottom: 5px;
+}
+
+/* Itens de experiência */
+.item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.periodo {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
+}
